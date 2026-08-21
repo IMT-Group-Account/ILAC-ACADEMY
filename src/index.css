@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Pretendard', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Pretendard', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+    --font-cinzel: 'Plus Jakarta Sans', 'Pretendard', sans-serif;
+    
+    /* Editorial Theme Colors */
+    --color-ivory: #FAF9F6;
+    --color-sand: #F2EFE9;
+    --color-charcoal: #1A1A1A;
+    --color-black: #0E0E10;
+    --color-gold: #C5A059;
+    --color-gold-hover: #D4AF37;
+    --color-border-light: #E5E1D8;
+    --color-border-dark: #2A2927;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0E0E10;
+    color: #FAF9F6;
+    overflow-x: hidden;
+    letter-spacing: -0.015em;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-editorial-serif {
+    font-family: var(--font-sans);
+    letter-spacing: -0.025em;
+  }
+
+  .font-brand-display {
+    font-family: var(--font-sans);
+    letter-spacing: 0.12em;
+  }
+}
+
+/* Editorial Magazine Utility Classes */
+.editorial-border-light {
+  border-color: #E5E1D8;
+}
+
+.editorial-border-dark {
+  border-color: rgba(197, 160, 89, 0.22);
+}
+
+.editorial-card-dark {
+  background: radial-gradient(120% 120% at 50% 0%, rgba(32, 31, 28, 0.85) 0%, rgba(14, 14, 16, 0.98) 100%);
+  border: 1px solid rgba(197, 160, 89, 0.2);
+  backdrop-filter: blur(16px);
+}
+
+.editorial-card-ivory {
+  background-color: #FAF9F6;
+  color: #1A1A1A;
+  border: 1px solid #E5E1D8;
+}
+
+.editorial-card-sand {
+  background-color: #F2EFE9;
+  color: #1A1A1A;
+  border: 1px solid #E0DDD4;
+}
+
+.gold-shimmer {
+  background: linear-gradient(135deg, #E8D5B5 0%, #C5A059 50%, #9E7D4E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-accent-bg {
+  background: linear-gradient(135deg, #C5A059 0%, #A8863E 100%);
+}
+
+.gold-border-glow:hover {
+  border-color: rgba(197, 160, 89, 0.6);
+  box-shadow: 0 0 25px rgba(197, 160, 89, 0.15);
+}
+
+

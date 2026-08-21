@@ -1,0 +1,6 @@
+{
+  "name": "ILAC ACADEMY",
+  "description": "두바이 이민 · 정착 · 투자 프리미엄 아카데미 및 원스톱 컨설팅 플랫폼 (Dubai Immigration, Settlement & Investment Academy)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
